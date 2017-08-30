@@ -8,8 +8,7 @@
 
 // Testing grounds
 
-((a,b)=>{
-    var y = a.split('').sort().join(''), z = b.split('').sort().join('');
-    console.log(z === y ? a + ' and ' + b + ' are anagrams' :
-        a + ' and ' + b + ' are not anagrams');
-})('god','dog');
+((a, b)=>{
+    console.log(a.split('').sort().join('')==b.split('').sort().join('')?
+    a + ' and ' + b + ' are anagrams' : a + ' and ' + b + ' are not anagrams');
+})('dog', 'god');
