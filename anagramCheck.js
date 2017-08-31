@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////
 ////             Made by: Damien Stamates              ////
-////                 Version: 0.0.01                   ////
+////                 Version: 0.2.16                   ////
 ////    Summary: This method can be integrated into    ////
 ////   your code to check if two words are anagrams.   ////
 ///////////////////////////////////////////////////////////
