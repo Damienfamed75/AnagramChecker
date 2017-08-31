@@ -8,7 +8,16 @@
 
 // Testing grounds
 
-((a, b)=>{
-    console.log(a.split('').sort().join('')==b.split('').sort().join('')?
-    a + ' and ' + b + ' are anagrams' : a + ' and ' + b + ' are not anagrams');
-})('dog', 'god');
+anagramCheck = (wordOne, wordTwo) => {  // Core function
+    return (wordOne.toLowerCase().split('').sort().join('')==wordTwo.toLowerCase().split('').sort().join('') ?
+    true:false);
+}
+
+((a, b)=>{  // Example as to how somebody could use it
+    if(anagramCheck(a, b))
+        {
+            console.log('These are anagrams');
+        } else {
+            console.log('These are not anagrams');
+        }
+})('God', 'Dog');
